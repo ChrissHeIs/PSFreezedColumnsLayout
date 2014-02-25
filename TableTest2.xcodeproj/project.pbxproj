@@ -35,7 +35,7 @@
 		59CE8D1B18990ACA00F6CA8A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CE8CF618990AC900F6CA8A /* CoreData.framework */; };
 		59CE8D2318990ACA00F6CA8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59CE8D2118990ACA00F6CA8A /* InfoPlist.strings */; };
 		59CE8D2518990ACA00F6CA8A /* TableTest2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE8D2418990ACA00F6CA8A /* TableTest2Tests.m */; };
-		59CE8D3018990EC000F6CA8A /* SAFreezedColumnsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE8D2F18990EC000F6CA8A /* SAFreezedColumnsLayout.m */; };
+		59CE8D3018990EC000F6CA8A /* PSFreezedColumnsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CE8D2F18990EC000F6CA8A /* PSFreezedColumnsLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +83,8 @@
 		59CE8D2018990ACA00F6CA8A /* TableTest2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableTest2Tests-Info.plist"; sourceTree = "<group>"; };
 		59CE8D2218990ACA00F6CA8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		59CE8D2418990ACA00F6CA8A /* TableTest2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableTest2Tests.m; sourceTree = "<group>"; };
-		59CE8D2E18990EC000F6CA8A /* SAFreezedColumnsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAFreezedColumnsLayout.h; sourceTree = "<group>"; };
-		59CE8D2F18990EC000F6CA8A /* SAFreezedColumnsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAFreezedColumnsLayout.m; sourceTree = "<group>"; };
+		59CE8D2E18990EC000F6CA8A /* PSFreezedColumnsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFreezedColumnsLayout.h; sourceTree = "<group>"; };
+		59CE8D2F18990EC000F6CA8A /* PSFreezedColumnsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFreezedColumnsLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +176,8 @@
 				59CE8D1018990ACA00F6CA8A /* Images.xcassets */,
 				59CE8D0718990ACA00F6CA8A /* TableTest2.xcdatamodeld */,
 				59CE8CF918990ACA00F6CA8A /* Supporting Files */,
-				59CE8D2E18990EC000F6CA8A /* SAFreezedColumnsLayout.h */,
-				59CE8D2F18990EC000F6CA8A /* SAFreezedColumnsLayout.m */,
+				59CE8D2E18990EC000F6CA8A /* PSFreezedColumnsLayout.h */,
+				59CE8D2F18990EC000F6CA8A /* PSFreezedColumnsLayout.m */,
 				59352C25189AA6E800E7F907 /* CustomCell.h */,
 				59352C26189AA6E800E7F907 /* CustomCell.m */,
 			);
@@ -310,7 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59CE8D3018990EC000F6CA8A /* SAFreezedColumnsLayout.m in Sources */,
+				59CE8D3018990EC000F6CA8A /* PSFreezedColumnsLayout.m in Sources */,
 				59CE8D0F18990ACA00F6CA8A /* DetailViewController.m in Sources */,
 				59CE8D0318990ACA00F6CA8A /* AppDelegate.m in Sources */,
 				59352C27189AA6E800E7F907 /* CustomCell.m in Sources */,

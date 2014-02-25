@@ -7,8 +7,6 @@
 //
 
 #import "AppDelegate.h"
-
-#import "MasterViewController.h"
 #import <Parse/Parse.h>
 
 @implementation AppDelegate

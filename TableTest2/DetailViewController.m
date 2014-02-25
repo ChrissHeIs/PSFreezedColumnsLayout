@@ -86,11 +86,6 @@
     return cell;
 }
 
-#if !FLOW_LAYOUT
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    [[(UICollectionView*)scrollView collectionViewLayout] invalidateLayout];
-}
-#endif
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 10;
